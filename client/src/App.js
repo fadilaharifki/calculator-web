@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import './styles/output.css'
+import Home from './pages/Home'
 
 function App() {
   return (
-    <div className="bg-[#be3a3a]">Home</div>
+    <Home />
   );
 }
 

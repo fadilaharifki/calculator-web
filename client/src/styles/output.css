@@ -542,7 +542,92 @@ video {
 [hidden] {
   display: none;
 }
-.bg-\[\#be3a3a\] {
+
+*, ::before, ::after {
+	--tw-border-opacity: 1;
+	border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+}
+.m-10 {
+	margin: 2.5rem;
+}
+.m-2 {
+	margin: 0.5rem;
+}
+.box-border {
+	box-sizing: border-box;
+}
+.flex {
+	display: flex;
+}
+.grid {
+	display: grid;
+}
+.h-20 {
+	height: 5rem;
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+.grid-cols-7 {
+	grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+.grid-rows-5 {
+	grid-template-rows: repeat(5, minmax(0, 1fr));
+}
+.flex-col {
+	flex-direction: column;
+}
+.items-end {
+	align-items: flex-end;
+}
+.items-center {
+	align-items: center;
+}
+.justify-end {
+	justify-content: flex-end;
+}
+.gap-4 {
+	gap: 1rem;
+}
+.gap-1 {
+	gap: 0.25rem;
+}
+.rounded-lg {
+	border-radius: 0.5rem;
+}
+.rounded {
+	border-radius: 0.25rem;
+}
+.border-2 {
+	border-width: 2px;
+}
+.bg-gray-200 {
 	--tw-bg-opacity: 1;
-	background-color: rgba(190, 58, 58, var(--tw-bg-opacity));
+	background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
+}
+.bg-gray-100 {
+	--tw-bg-opacity: 1;
+	background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+}
+.p-2 {
+	padding: 0.5rem;
+}
+.px-8 {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+.py-1 {
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+}
+.text-center {
+	text-align: center;
+}
+.active\:bg-green-500:active {
+	--tw-bg-opacity: 1;
+	background-color: rgba(16, 185, 129, var(--tw-bg-opacity));
+}
+.active\:text-white:active {
+	--tw-text-opacity: 1;
+	color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
